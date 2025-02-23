@@ -48,22 +48,22 @@ const projects = [
     title: "Sidcup Family Golf",
     description: "Golf booking website using HTML, CSS, JavaScript, GSAP",
     tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/iamvtyagi/Sidcup-Family-Golf.git",
+    live: "https://sidcup-family-golf-pipb.vercel.app/",
   },
   {
     title: "Sundown Studio",
     description: "Animated website using Locomotive Scroll, GSAP, Swiper.js",
     tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-    github: "https://github.com/iamvtyagi/Sidcup-Family-Golf.git",
-    live: "https://sidcup-family-golf-pipb.vercel.app/",
+    github: "https://github.com/iamvtyagi/Sundown-Studio.git",
+    live: "https://sundown-studio-beta.vercel.app",
   },
   {
-    title: "Task Manager",
-    description: "Task app using Node.js, Express.js, Tailwind CSS",
+    title: "Khatabook",
+    description: "Khatabook app using Node.js, Express.js, Tailwind CSS",
     tech: ["Node.js", "Express.js", "Tailwind CSS"],
-    github: "https://github.com/iamvtyagi/task-manager.git",
-    live: "https://github.com/iamvtyagi/task-manager.git",
+    github: "https://github.com/iamvtyagi/Khatabook.git",
+    live: "https://khatabook-nast.onrender.com/",
   }
 ];
 
