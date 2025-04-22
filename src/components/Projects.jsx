@@ -1,38 +1,43 @@
-import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
     title: "Kawach",
-    description: "Secure document-sharing app using MERN stack, Cloudinary, QR Code Encryption",
+    description:
+      "Secure document-sharing app using MERN stack, Cloudinary, QR Code Encryption",
     tech: ["React", "Node.js", "MongoDB", "Cloudinary", "QR Code"],
     github: "https://github.com/iamvtyagi/kawach.git",
     live: "https://kawach-git-main-sujal862s-projects.vercel.app/",
   },
   {
     title: "Uber Clone",
-    description: "Ride-hailing app using React, Node.js, MongoDB, Google Maps API",
+    description:
+      "Ride-hailing app using React, Node.js, MongoDB, Google Maps API",
     tech: ["React", "Node.js", "MongoDB", "Google Maps"],
     github: "https://github.com/iamvtyagi/Uber.git",
     live: "https://uber-1-n8he.onrender.com/",
   },
   {
-    title: "Promptly",
-    description: "AI-powered platform for generating prompts using Next.js, OpenAI API",
-    tech: ["Next.js", "OpenAI", "Tailwind CSS"],
-    github: "https://github.com/iamvtyagi/MYSE.git",
-    live: "https://github.com/iamvtyagi/MYSE.git",
+    title: "SEON",
+    description:
+      "A real-time collaborative development environment with integrated AI assistance, live code execution, and team collaboration features.",
+    tech: ["React", "Node.js", "WebSockets", "AI Integration"],
+    github: "https://github.com/iamvtyagi/SOEN.git",
+    live: "https://github.com/iamvtyagi/SOEN.git",
   },
   {
-    title: "Quiz Play",
-    description: "Interactive quiz application using React.js, Firebase",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/iamvtyagi/quiz_client.git",
-    live: "https://github.com/iamvtyagi/quiz_client.git",
+    title: "FlashLearn",
+    description:
+      "FlashLearn is an AI-powered learning platform that transforms PDFs and YouTube videos into interactive quizzes, making exam preparation faster and more engaging.",
+    tech: ["React", "AI", "Firebase", "Tailwind CSS"],
+    github: "https://github.com/iamvtyagi/flashLearn.git",
+    live: "https://github.com/iamvtyagi/flashLearn.git",
   },
   {
     title: "Peer Connect",
-    description: "Real-time video & chat app using WebRTC, Socket.io, Express.js",
+    description:
+      "Real-time video & chat app using WebRTC, Socket.io, Express.js",
     tech: ["WebRTC", "Socket.io", "Express.js"],
     github: "https://github.com/iamvtyagi/peer-connect.git",
     live: "https://omegle-af9h.onrender.com/",
@@ -64,14 +69,14 @@ const projects = [
     tech: ["Node.js", "Express.js", "Tailwind CSS"],
     github: "https://github.com/iamvtyagi/Khatabook.git",
     live: "https://khatabook-nast.onrender.com/",
-  }
+  },
 ];
 
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-800">
       <div className="container mx-auto px-4">
-        <motion.h2 
+        <motion.h2
           className="text-3xl md:text-4xl font-bold text-center text-white mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -79,7 +84,7 @@ const Projects = () => {
         >
           Featured Projects
         </motion.h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
@@ -91,11 +96,13 @@ const Projects = () => {
               transition={{ delay: index * 0.1 }}
             >
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {project.title}
+                </h3>
                 <p className="text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, techIndex) => (
-                    <span 
+                    <span
                       key={techIndex}
                       className="px-2 py-1 bg-gray-700 text-gray-300 text-sm rounded"
                     >
