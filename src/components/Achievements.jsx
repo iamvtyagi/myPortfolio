@@ -32,7 +32,7 @@ const profiles = [
   {
     name: "LeetCode",
     icon: <FaCode />,
-    link: "https://leetcode.com/chikuinsight",
+    link: "https://leetcode.com/iamvtyagi",
   },
 ];
 
