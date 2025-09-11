@@ -20,7 +20,7 @@ const About = () => {
           transition={{ delay: 0.2 }}
         >
           <p className="text-lg text-gray-700 leading-relaxed">
-            I am a second-year BTech student in Information Technology at JSS Academy of Technical Education, Noida. 
+            I am a third-year BTech student in Information Technology at JSS Academy of Technical Education, Noida. 
             Passionate about programming, web development, and learning new technologies. I enjoy building innovative 
             solutions and participating in hackathons to solve real-world problems.
           </p>
