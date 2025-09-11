@@ -23,8 +23,8 @@ const projects = [
     description:
       "A real-time collaborative development environment with integrated AI assistance, live code execution, and team collaboration features.",
     tech: ["React", "Node.js", "WebSockets", "AI Integration"],
-    github: "https://github.com/iamvtyagi/SOEN.git",
-    live: "https://github.com/iamvtyagi/SOEN.git",
+    github: "https://github.com/iamvtyagi/SEON_.git",
+    live: "seon-pi.vercel.app/",
   },
   {
     title: "FlashLearn",
